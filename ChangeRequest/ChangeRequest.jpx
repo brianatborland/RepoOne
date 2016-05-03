@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--JBuilder XML Project-->
+<project>
+  <property category="idl" name="ProcessIDL" value="false"/>
+  <property category="javadoc" name="custom.tags.1" value="todo;a;To Do:"/>
+  <property category="optimize.0" name="OptimizableType" value="intuitive.ide.borland.jb8.ProfilerBootstrap"/>
+  <property category="optimize.0" name="oicc.FilterFile" value="/home/bstiles/projects/starbase/starflow-extensions/components/samples/editors/ChangeRequest/ChangeRequest.oif"/>
+  <property category="optimize.0" name="oipr.AutoStartCPU" value="1"/>
+  <property category="optimize.0" name="oipr.FilterFile" value="/home/bstiles/projects/starbase/starflow-extensions/components/samples/editors/ChangeRequest/ChangeRequest.oif"/>
+  <property category="runtime.0" name="BuildTargetOnRun" value="com.borland.jbuilder.build.ProjectBuilder$ProjectBuildAction;make"/>
+  <property category="runtime.0" name="ConfigurationName" value="ChangeRequest"/>
+  <property category="runtime.0" name="RunnableType" value="com.borland.jbuilder.runtime.ApplicationRunner"/>
+  <property category="runtime.0" name="application.class" value="com.starbase.starteam.changerequest.ChangeRequestLauncher"/>
+  <property category="runtime.0" name="application.parameters" value="-test"/>
+  <property category="runtime.0" name="appserver.ejbJarsSaved" value="1"/>
+  <property category="runtime.0" name="appserver.parameters" value="-jts -jns -jss -jdb"/>
+  <property category="runtime.0" name="appserver.servername" value="ejbcontainer"/>
+  <property category="runtime.0" name="appserver.vmparameters" value="-Dvbroker.agent.port=14000 -Djava.library.path=/Borland/AppServer/lib;/Borland/AppServer/bin"/>
+  <property category="runtime.0" name="jsprunner.launchuri" value="/"/>
+  <property category="runtime.0" name="test.harness" value="com.borland.jbuilder.unittest.JBTestRunner"/>
+  <property category="serverservices" name="disabled.services" value="connector;jdatastore"/>
+  <property category="sys" name="BackupPath" value="bak"/>
+  <property category="sys" name="CheckStable" value="1"/>
+  <property category="sys" name="Company" value="Borland"/>
+  <property category="sys" name="Copyright" value="COPYRIGHT (c) 1995-2004 Borland Software Corporation. All rights reserved."/>
+  <property category="sys" name="DefaultPath" value="src"/>
+  <property category="sys" name="Description" value=""/>
+  <property category="sys" name="DocPath" value="doc"/>
+  <property category="sys" name="ExcludeClassEnabled" value="0"/>
+  <property category="sys" name="IncludeTestPath" value="1"/>
+  <property category="sys" name="JDK" value="java version 1.4.1-b21"/>
+  <property category="sys" name="LastTag" value="0"/>
+  <property category="sys" name="Libraries" value="StarTeam Extensions;StarTeam;GUI SDK"/>
+  <property category="sys" name="MakeStable" value="0"/>
+  <property category="sys" name="OutPath" value="classes"/>
+  <property category="sys" name="SourcePath" value="src;test"/>
+  <property category="sys" name="TestPath" value="test"/>
+  <property category="sys" name="Title" value="Change Request Form"/>
+  <property category="sys" name="Version" value="1.0"/>
+  <property category="sys" name="WorkingDirectory" value="."/>
+  <property category="sys" name="uidesign.size.com.starbase.starteam.changerequest.ChangeRequestForm" value="536,497"/>
+  <node name="Applet JAR" type="Archive">
+    <property category="archiving" name="archiverClass" value="com.borland.jbuilder.wizard.archive.AppletArchiver"/>
+    <property category="archiving" name="defaultLibraryState" value="2"/>
+    <property category="archiving" name="libraryStates.1" value="0:StarTeam Extensions"/>
+    <property category="archiving" name="libraryStates.2" value="0:StarTeam"/>
+    <property category="archiving" name="libraryStates.3" value="0:GUI SDK"/>
+    <property category="archiving" name="targetCompressed" value="1"/>
+    <property category="archiving" name="targetPath" value="ChangeRequest.jar"/>
+  </node>
+  <file path="ChangeRequest.html"/>
+  <file path="ChangeRequest.propertyeditor.xml"/>
+  <file path="src/com/starbase/starteam/changerequest/ChangeRequestForm.java"/>
+  <file path="src/com/starbase/starteam/changerequest/ChangeRequestLauncher.java"/>
+</project>
