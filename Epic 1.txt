@@ -1,0 +1,9 @@
+Students can purchase monthly parking passes online.
+Parking passes can be paid via credit cards.
+Parking passes can be paid via PayPal.
+Professors can input student marks.
+Students can obtain their current seminar schedule.
+Students can order official transcripts.
+Students can only enroll in seminars for which they have prerequisites.
+Transcripts will be available online via a standard browser.
+new story
