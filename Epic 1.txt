@@ -6,3 +6,4 @@ Students can obtain their current seminar schedule.
 Students can order official transcripts.
 Students can only enroll in seminars for which they have prerequisites.
 Transcripts will be available online via a standard browser.
+new story
